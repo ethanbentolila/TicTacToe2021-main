@@ -1,4 +1,4 @@
-﻿// Last Modified By:    
+﻿// Last Modified By:Ethan Bentolila
 // Last Modified Date:  February 7, 2021
 
 // Author:  Kyle Chapman
@@ -249,5 +249,9 @@ namespace TicTacToe
 
         #endregion
 
+        private void formTicTacToe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

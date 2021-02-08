@@ -165,6 +165,7 @@ namespace TicTacToe
             this.Name = "formTicTacToe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
+            this.Load += new System.EventHandler(this.formTicTacToe_Load);
             this.ResumeLayout(false);
 
         }
